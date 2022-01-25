@@ -1,10 +1,11 @@
 function startGame(){
     if(register.username.value){
         /* var UI = document.getElementById(username).value; */ 
-        const newDiv = document.getElementById(user);
-        newDiv,innerHTML = `Welcome`;
+        var newUser = document.getElementById(username);
+        
     }
     else{
         alert("No username");
     }   
+    console.log(username);
 }

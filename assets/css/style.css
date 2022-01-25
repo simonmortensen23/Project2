@@ -44,10 +44,11 @@ body {
     
     width: 100%;
     height: 50%;
+    border-bottom: #37003c 3px solid;
     
 }
 
-.answer-container {
+.answer {
   background-color: #37003c;
   color:#fff;
   width: 40%;
