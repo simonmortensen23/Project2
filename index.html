@@ -11,19 +11,38 @@
 <body>
     <h1 class="header">Premier League Club nicknames<img class="logo" src="assets/images/PL.png" alt="Premier League Logo"></h1>
     
-    <div class="userInfo-area">
-        <h2>Enter username:</h2>
+    <div class="user-info" id="user">
+        <h2>Enter username:<h2>
+       <form name="register" method="post">
+           Username: <input type="text" id="username" name="username"/>
+           <input type="button" onClick="startGame()" value="GO!"/>
     </div>
 
-    <div class="quiz-area">
-        <div class="question-count">Question:<span></span></div>
+    <div class="quiz">
+        <div class="question-count"><h3>Question:</h3></div>
+        <div class="answer-container">
+            <p class="answer-prefix">1</p>
+            <p class="answer-text" data-number="1">Answer</p>
+        </div>
+        <div class="answer-container">
+            <p class="answer-prefix">2</p>
+            <p class="answer-text" data-number="2">Answer</p>
+        </div>
+        <div class="answer-container">
+            <p class="answer-prefix">3</p>
+            <p class="answer-text" data-number="3">Answer</p>
+        </div>
+        <div class="answer-container">
+            <p class="answer-prefix">4</p>
+            <p class="answer-text" data-number="4">Answer</p>
+        </div>
     </div>
 
-    <div class="score-area">
-        <div class="current-score">Answers correct:<span></span></div>
-        <div class=highscores>Highscores:<span id="highscores"></span></div>
+    <div class="scores">
+        <div class="current-score">Answers correct:</span></div>
+        <div class=highscores>Highscores:</div>
     </div>
 
-
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
